@@ -4,16 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Treasure Game!!");
+            Console.WriteLine("Welcome to the Treasure Room!!");
             Console.WriteLine("There is a cave with 2 floor and 10 rooms each floor. Can u find the treasure room? ");
             Console.WriteLine("You can use arrow keys for move and you only have 3 attack chance. Use them wisely. For attacking a room press space key");
             int stn = 1;
             int str = 1;
             int hazine_stn = 9;
-            int hazine_str = 2;
+            int hazine_str = 7;
 
             int can = 3;
-            bool[,] attacked_rooms = new bool[2, 10];
+            bool[,] attacked_rooms = new bool[10, 10];
 
             while (can>0)
             {
